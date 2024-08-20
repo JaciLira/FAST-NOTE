@@ -1,0 +1,105 @@
+﻿Board de Requisitos do Software Fast Note  
+
+
+
+
+1. Criar
+* Descrição: Permitir ao usuário criar novas notas e salvá-las em um banco de dados.
+* Funcionalidade:
+   * Interface de usuário para criar e editar notas (Front-end: HTML/CSS/JavaScript).
+   * API para receber e processar a criação de notas (Back-end: Python/FastAPI).
+   * Armazenamento das notas em um banco de dados PostgreSQL.
+* Tecnologias:
+   * Front-end: HTML, CSS, JavaScript
+   * Back-end: Python, FastAPI
+   * Banco de dados: PostgreSQL
+2. Ler 
+* Descrição: Permitir ao usuário visualizar todas as notas salvas no banco de dados por meio de uma pesquisa.
+* Funcionalidade:
+   * Interface de pesquisa e visualização de notas (Front-end: HTML/CSS/JavaScript).
+   * API para buscar e listar notas (Back-end: Python/FastAPI).
+   * Consulta ao banco de dados PostgreSQL para retornar as notas.
+* Tecnologias:
+   * Front-end: HTML, CSS, JavaScript
+   * Back-end: Python, FastAPI
+   * Banco de dados: PostgreSQL
+3. Atualizar
+* Descrição: Permitir que o usuário edite notas existentes.
+* Funcionalidade:
+   * Interface de usuário para editar notas (Front-end: HTML/CSS/JavaScript).
+   * API para atualizar notas existentes (Back-end: Python/FastAPI).
+   * Atualização das notas no banco de dados PostgreSQL.
+* Tecnologias:
+   * Front-end: HTML, CSS, JavaScript
+   * Back-end: Python, FastAPI
+   * Banco de dados: PostgreSQL
+4. Excluir
+* Descrição: Permitir que o usuário exclua notas.
+* Funcionalidade:
+   * Interface de usuário para excluir notas (Front-end: HTML/CSS/JavaScript).
+   * API para deletar notas (Back-end: Python/FastAPI).
+   * Remoção das notas do banco de dados PostgreSQL.
+* Tecnologias:
+   * Front-end: HTML, CSS, JavaScript
+   * Back-end: Python, FastAPI
+   * Banco de dados: PostgreSQL
+5. PDF
+* Descrição: Permitir salvar notas em formato PDF.
+* Funcionalidade:
+   * Interface de usuário para exportar notas para PDF (Front-end: HTML/CSS/JavaScript).
+   * API para gerar e fornecer arquivos PDF (Back-end: Python/FastAPI).
+   * Utilização de uma biblioteca para geração de PDFs (a decidir).
+* Tecnologias:
+   * Front-end: HTML, CSS, JavaScript
+   * Back-end: Python, FastAPI
+   * Biblioteca para PDF: ReportLab (ou outra similar)
+________________
+
+
+Etapas de Requisitos no Board
+* Etapa 1: Criar Notas
+   * Descrição: Implementar a funcionalidade para criar e salvar notas.
+   * Tarefas:
+      * Desenvolver o formulário de criação (Front-end).
+      * Implementar o endpoint de API para salvar notas (Back-end).
+      * Configurar o esquema de banco de dados para notas (Banco de dados).
+   * Status: Em andamento.
+
+
+* Etapa 2: Visualizar Notas
+   * Descrição: Implementar a funcionalidade para visualizar e pesquisar notas.
+   * Tarefas:
+      * Desenvolver a interface de pesquisa e listagem (Front-end).
+      * Implementar o endpoint de API para listar notas (Back-end).
+      * Configurar consultas no banco de dados (Banco de dados).
+
+
+
+
+
+
+* Etapa 3: Editar Notas
+   * Descrição: Implementar a funcionalidade para editar notas existentes.
+   * Tarefas:
+      * Desenvolver a interface de edição (Front-end).
+      * Implementar o endpoint de API para atualizar notas (Back-end).
+      * Atualizar notas no banco de dados (Banco de dados).
+   * Status: Pendente
+
+
+* Etapa 4: Excluir Notas
+   * Descrição: Implementar a funcionalidade para excluir notas.
+   * Tarefas:
+      * Desenvolver a interface para exclusão (Front-end).
+      * Implementar o endpoint de API para deletar notas (Back-end).
+      * Remover notas do banco de dados (Banco de dados).
+   * Status: Pendente
+
+
+* Etapa 5: Exportar para PDF
+   * Descrição: Implementar a funcionalidade para salvar notas em PDF.
+   * Tarefas:
+      * Desenvolver a interface para exportar para PDF (Front-end).
+      * Implementar o endpoint de API para gerar PDFs (Back-end).
+      * Integrar biblioteca para geração de PDF (Back-end).
+   * Status: Pendente
