@@ -62,8 +62,8 @@ Etapas de Requisitos no Board
    * Tarefas:
       * Desenvolver o formulário de criação (Front-end).
       * Implementar o endpoint de API para salvar notas (Back-end).
-      * Configurar o esquema de banco de dados para notas (Banco de dados).
-   * Status: Em andamento.
+      * Configurar o esquema do banco de dados para receber as notas (Banco de dados).
+   * Status: Concuído.
 
 
 * Etapa 2: Visualizar Notas
@@ -72,9 +72,7 @@ Etapas de Requisitos no Board
       * Desenvolver a interface de pesquisa e listagem (Front-end).
       * Implementar o endpoint de API para listar notas (Back-end).
       * Configurar consultas no banco de dados (Banco de dados).
-
-
-
+    * Status: Em andamento.
 
 
 
